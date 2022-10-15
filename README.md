@@ -1,2 +1,92 @@
-# websitecategorizationapi
-Website categorization API
+# Websitecategorization API
+
+This is PHP wrapper for website categorization API. 
+
+## Use cases
+
+There are several use cases for website categorization across a variety of industries. Business intelligence is one crucial area of application. You can learn more about what your competitors are doing and find fresh prospects for your own company by examining the content and layout of their websites.
+
+The management of website content is another example of a use case. The category of the website can be used to infer that a corporation may have distinct regulations for different sorts of websites, such as different degrees of access based on the age range of site visitors.
+
+Another crucial application is cybersecurity, where we categorize websites as spam, phishing, or sites we don't want people, such our employees, to visit.
+
+As a result, we are able to ban these potentially hazardous websites and stop users from visiting them. We can also use whitelists, which restrict network users' access to just secure websites on a predetermined list.
+
+Online advertising is another significant application of website classification, as it allows for more precise ad targeting on the part of the marketers.
+
+## Taxonomies
+
+To help categorize content and make it easier to find, taxonomies are created. An ad-focused taxonomy is most helpful in the context of websites, and the Internet Advertising Bureau (IAB) has created one with an emphasis on advertising and marketing.
+
+The IAB website has a taxonomy that is constantly being updated in response to shifting user behaviors and classifications. Because of this, it's crucial to utilize the most recent version of the IAB taxonomy when classifying websites.
+
+Creating a URL Category Taxonomy for Web Content is a crucial step in the development of a machine learning classifier. Take your time with this because subsequent modifications are frequently challenging and time-consuming. For instance, you might need to reclassify all of the prior data items if you subsequently decide to change the categories. Additionally, more time will be needed to gather data for the training data set.
+
+Customers might not be pleased if you alter the taxonomy used by your classifier because it will have an impact on the data they have previously categorised or the platform they use. For instance, they might need to alter navigation menus that may have been created using the taxonomy directly.
+
+A different, products-focused taxonomy might be more suited if your website is primarily focused on online sales. The ones from Google that are the most well-known in this section are:
+
+https://www.google.com/basepages/producttype/taxonomy.en-US.txt
+
+Product categories and subcategories are how Google's product taxonomy is organized, making it simple to organize your material. It has various "Tiers" or depth levels. Since the taxonomy has more than 1000 (sub)categories, you'll probably discover the appropriate one for your products.
+
+## Models for machine learning
+
+You must first gather a substantial amount of top-notch training data before you can begin to create a supervised machine learning model for automated website classification. The more training data you have, the more relevant and diverse they are, and the more accurate and dependable your model will be. It is advised that you devote the majority of your time and resources on this stage of the procedure.
+
+The gathering of training data for website classification can be done in a variety of methods. Utilizing pre-existing datasets from various organizations or other third parties is one option. Additionally, you can independently browse websites and compile their material into a dataset using the existing web-crawling tools.
+
+Another choice is to manually curate a dataset by opening websites that relate to your use case and classifying them using either your own custom taxonomy or a taxonomy from Google, Facebook, or the IAB.
+
+Below is a list of some of the machine learning models, in increasing order of complexity, that can be used generally for text classification.
+
+### Simple Bayes
+
+A well-liked machine learning technique for categorizing data is called naive Bayes classification.
+
+The Bayes theorem, which says that the posterior probability of an event given certain evidence is equal to the sum of the prior probability of the event (before accounting for the evidence), and the conditional probability of the evidence given that occurrence, is the foundation of the model.
+
+### Logistic regression
+
+A supervised classification technique called logistic regression uses a discrete logistic function for the dependent variable.
+
+Multinomial logistic regression, which supports more than two discrete outcomes, is a type of binary logistic regression that helps us determine whether or not a given message is spam.
+
+The linear regression is extended by the logistic regression, which is tailored for classification tasks. Both compute the bias term and the weighted sum of the input variables. While this is the outcome of a linear regression, the logistic regression determines the logistic of the total.
+
+Numerous text classification models and applications, such as the Product Categorization API, utilize logistic regression.
+
+Choosing the logistic regression decision threshold
+
+The decision threshold is typically left at 0.5 for many categorization issues. However, it makes sense to take into account the relative significance/cost of false positives and false negatives in your classification problem when choosing its value.
+
+Two crucial assessment indicators are affected differently when the decision threshold is changed:
+- precision
+- recall
+
+Raising the decision threshold results in fewer false positives, more false negatives, and improved precision at the expense of decreased recall. In contrast, raising the decision threshold causes a decline in precision and an increase in recall. We are dealing with a trade-off between recall and precision, with various classification issues demanding various mixes of both.
+
+Extracting content from articles
+
+Websites are made up of a combination of content and auxiliary components like footers, sidebars, and menus. These auxiliary components are frequently less important to the website's main subject and frequently appear on other websites.
+
+Even photos can have text extracted from them utilizing an image-to-text conversion technique.
+
+Think of a news website where many of the stories may share the same menus, footers, and sidebar headlines/teasers. Generally speaking, we are interested in the article's content. Article extraction is useful in this situation.
+
+Article extraction is the process of removing text from a website that contains other content that is less linked to (or unrelated to) the topic of interest and is therefore likely to contain relevant text.
+
+An essential component of the data pipeline for website categorization algorithms is text pre-processing. The initial phase of the procedure involves extracting pertinent text from the websites since we are working with them. In the majority of circumstances, as part of "article extraction," we wish to get rid of any web page content that isn't an article.
+
+The subject of content extraction has been studied extensively. https://www.researchgate.net/publication/221519989 Boilerplate Detection Using Shallow Text Features is a fantastic early research work on this subject. There is a Java open source implementation of it.
+
+Additionally, there are other ready-made libraries for content extraction that are built in Python, which is more frequently used in data science, such as goose3 and newspaper (https://github.com/codelucas/newspaper).
+
+## Conclusion
+
+Natural language processing and machine learning both heavily rely on website classification. It has numerous applications in a variety of fields, such as cybersecurity and online store categorizations.
+
+Extraction of pertinent material from websites (by removing boilerplate components) is a crucial component of website classification, and for this task, specialized machine learning models can be used.
+
+A wide variety of machine learning models, from deep learning nets to logistic regression, can be employed for text classification itself.
+
