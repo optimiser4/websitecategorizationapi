@@ -114,6 +114,12 @@ Additionally, there are other ready-made libraries for content extraction that a
 
 Article extractors play an important role if you want to build [free url categorization database](https://www.alpha-quantum.com/blog/url-database/url-database/). 
 
+## Dealing with webpages that contain only images
+
+When classifier encounters a website which consists only of images, with no relevant text, then it uses [image to text api](https://ocrapi.io/) to first extract text from images and then classify it. 
+
+We also handle duplicate domains by using [reverse check of domains sharing same IP](https://reverseiplookupapi.com/). 
+
 ## Conclusion
 
 Natural language processing and machine learning both heavily rely on website classification. It has numerous applications in a variety of fields, such as cybersecurity and online store categorizations.
