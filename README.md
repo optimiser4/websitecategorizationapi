@@ -8,15 +8,15 @@ There are several use cases for website categorization across a variety of indus
 
 The management of website content is another example of a use case. The category of the website can be used to infer that a corporation may have distinct regulations for different sorts of websites, such as different degrees of access based on the age range of site visitors.
 
-Another crucial application is cybersecurity, where we categorize websites as spam, phishing, or sites we don't want people, such our employees, to visit.
+Another crucial application is cybersecurity, where we [categorize websites](https://medium.com/website-categorization/website-categorization-api-ca6c3e0f6c4d) as spam, phishing, or sites we don't want people, such our employees, to visit.
 
 As a result, we are able to ban these potentially hazardous websites and stop users from visiting them. We can also use whitelists, which restrict network users' access to just secure websites on a predetermined list.
 
-Online advertising is another significant application of website classification, as it allows for more precise ad targeting on the part of the marketers.
+Online advertising is another significant application of website classification, as it allows for more precise [ad targeting](https://en.wikipedia.org/wiki/Targeted_advertising) on the part of the marketers.
 
 ## Taxonomies
 
-To help categorize content and make it easier to find, taxonomies are created. An ad-focused taxonomy is most helpful in the context of websites, and the Internet Advertising Bureau (IAB) has created one with an emphasis on advertising and marketing.
+To help [classify web site content](https://www.websitecategorizationapi.com/) and make it easier to find, taxonomies are created. An ad-focused taxonomy is most helpful in the context of websites, and the Internet Advertising Bureau (IAB) has created one with an emphasis on advertising and marketing.
 
 The IAB website has a taxonomy that is constantly being updated in response to shifting user behaviors and classifications. Because of this, it's crucial to utilize the most recent version of the IAB taxonomy when classifying websites.
 
@@ -24,17 +24,18 @@ Creating a URL Category Taxonomy for Web Content is a crucial step in the develo
 
 Customers might not be pleased if you alter the taxonomy used by your classifier because it will have an impact on the data they have previously categorised or the platform they use. For instance, they might need to alter navigation menus that may have been created using the taxonomy directly.
 
-A different, products-focused taxonomy might be more suited if your website is primarily focused on online sales. The ones from Google that are the most well-known in this section are:
+A different, products-focused [taxonomies](https://pypi.org/project/websiteclassificationapi/) might be more suited if your website is primarily focused on online sales. The ones from Google that are the most well-known in this section are:
 
 https://www.google.com/basepages/producttype/taxonomy.en-US.txt
 
-Product categories and subcategories are how Google's product taxonomy is organized, making it simple to organize your material. It has various "Tiers" or depth levels. Since the taxonomy has more than 1000 (sub)categories, you'll probably discover the appropriate one for your products.
+Product categories and subcategories are how Google's [product classification taxonomy](https://medium.com/product-categorization/product-categorization-introduction-d62bb92e8515) is organized, making it simple to organize your material. It has various "Tiers" or depth levels. Since the taxonomy has more than 1000 (sub)categories, you'll probably discover the appropriate one for your products.
 
 ## Models for machine learning
 
 You must first gather a substantial amount of top-notch training data before you can begin to create a supervised machine learning model for automated website classification. The more training data you have, the more relevant and diverse they are, and the more accurate and dependable your model will be. It is advised that you devote the majority of your time and resources on this stage of the procedure.
 
-The gathering of training data for website classification can be done in a variety of methods. Utilizing pre-existing datasets from various organizations or other third parties is one option. Additionally, you can independently browse websites and compile their material into a dataset using the existing web-crawling tools.
+The gathering of training data for website classification can be done in a variety of methods, often using advanced [math](https://www.boplnachhilfe.de/) and datascience method. Utilizing pre-existing datasets from various organizations or other third parties is one option. Additionally, you can independently browse websites and compile their material into a dataset using the existing web-crawling tools.
+
 
 Another choice is to manually curate a dataset by opening websites that relate to your use case and classifying them using either your own custom taxonomy or a taxonomy from Google, Facebook, or the IAB.
 
@@ -54,7 +55,7 @@ Multinomial logistic regression, which supports more than two discrete outcomes,
 
 The linear regression is extended by the logistic regression, which is tailored for classification tasks. Both compute the bias term and the weighted sum of the input variables. While this is the outcome of a linear regression, the logistic regression determines the logistic of the total.
 
-Numerous text classification models and applications, such as the Product Categorization API, utilize logistic regression.
+Numerous text classification models and applications, such as the [Product Categorization API](https://documenter.getpostman.com/view/20674041/UyrBjGSV), utilize logistic regression.
 
 Choosing the logistic regression decision threshold
 
@@ -81,6 +82,8 @@ An essential component of the data pipeline for website categorization algorithm
 The subject of content extraction has been studied extensively. https://www.researchgate.net/publication/221519989 Boilerplate Detection Using Shallow Text Features is a fantastic early research work on this subject. There is a Java open source implementation of it.
 
 Additionally, there are other ready-made libraries for content extraction that are built in Python, which is more frequently used in data science, such as goose3 and newspaper (https://github.com/codelucas/newspaper).
+
+Article extractors play an important role if you want to build [free url categorization database](https://www.alpha-quantum.com/blog/url-database/url-database/). 
 
 ## Conclusion
 
