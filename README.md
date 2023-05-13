@@ -43,6 +43,24 @@ As a result, we are able to ban these potentially hazardous websites and stop us
 
 Online advertising is another significant application of website classification, as it allows for more precise [ad targeting](https://en.wikipedia.org/wiki/Targeted_advertising) on the part of the marketers.
 
+## Application to PHP
+
+As this is a documentation for PHP, we thought it interesting to add analysis of how the PHP is used across industry verticals: 
+
+![image](https://github.com/optimiser4/websitecategorizationapi/assets/106262091/9bf7760e-7855-41b0-b4df-d452d013c79e)
+
+Note that high share of Business and Finance is reflection of high weight of this vertical among all domains. 
+
+But what if we are interested in which vertical is PHP used more than average. 
+
+Our website [https://www.alpha-quantum.com/technologies/PHP](https://www.alpha-quantum.com/technologies/PHP) provides this information as well: 
+
+![image](https://github.com/optimiser4/websitecategorizationapi/assets/106262091/c8c7b2ca-0840-4f2c-ac31-0889c4b489b7)
+
+Next interesting information is what technologies are recommended for someone using PHP. Using our AI recommender we get: 
+
+<table class="table" style="font-size:20px;line-height:30px"><thead><tr><th>Technology</th><th>AI Recommendation Score </th><th>Website</th></tr></thead><tbody><tr><td><a href="https://www.alpha-quantum.com/technologies/Nginx">Nginx</a></td><td>0.33</td><td>http://nginx.org/en</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/MySQL">MySQL</a></td><td>0.27</td><td>http://mysql.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/WordPress">WordPress</a></td><td>0.23</td><td>https://wordpress.org</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Drupal">Drupal</a></td><td>0.19</td><td>https://drupal.org</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Joomla">Joomla</a></td><td>0.15</td><td>https://www.joomla.org</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Laravel">Laravel</a></td><td>0.14</td><td>https://laravel.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Apache">Apache</a></td><td>0.13</td><td>http://apache.org</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/CodeIgniter">CodeIgniter</a></td><td>0.13</td><td>http://codeigniter.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/TYPO3 CMS">TYPO3 CMS</a></td><td>0.11</td><td>https://typo3.org/</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/ExpressionEngine">ExpressionEngine</a></td><td>0.09</td><td>http://expressionengine.com</td></tr></tbody></table>
+
 ## Taxonomies
 
 To help [classify web site content](https://www.websitecategorizationapi.com/) and make it easier to find, taxonomies are created. An ad-focused taxonomy is most helpful in the context of websites, and the Internet Advertising Bureau (IAB) has created one with an emphasis on advertising and marketing.
