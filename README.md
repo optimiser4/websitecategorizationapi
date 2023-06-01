@@ -53,7 +53,7 @@ Note that high share of Business and Finance is reflection of high weight of thi
 
 But what if we are interested in which vertical is PHP used more than average. 
 
-Our website [https://www.alpha-quantum.com/technologies/PHP](https://www.alpha-quantum.com/technologies/PHP) provides this information as well: 
+Our website [https://www.alpha-quantum.com/technologies/websites-using-PHP](https://www.alpha-quantum.com/technologies/websites-using-PHP) provides this information as well: 
 
 ![image](https://github.com/optimiser4/websitecategorizationapi/assets/106262091/c8c7b2ca-0840-4f2c-ac31-0889c4b489b7)
 
