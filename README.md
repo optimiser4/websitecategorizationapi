@@ -77,6 +77,10 @@ https://www.google.com/basepages/producttype/taxonomy.en-US.txt
 
 Product categories and subcategories are how Google's [product classification taxonomy](https://medium.com/product-categorization/product-categorization-introduction-d62bb92e8515) is organized, making it simple to organize your material. It has various "Tiers" or depth levels. Since the taxonomy has more than 1000 (sub)categories, you'll probably discover the appropriate one for your products.
 
+## product categorization AI
+
+Another important application of categorization is as [product categorization AI](https://www.productcategorization.com/). 
+
 ## Models for machine learning
 
 You must first gather a substantial amount of top-notch training data before you can begin to create a supervised machine learning model for automated website classification. The more training data you have, the more relevant and diverse they are, and the more accurate and dependable your model will be. It is advised that you devote the majority of your time and resources on this stage of the procedure.
