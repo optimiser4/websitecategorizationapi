@@ -1,6 +1,6 @@
 # Websitecategorization API
 
-This is PHP wrapper for website categorization API. 
+This is PHP wrapper for website categorization API that is available at [https://www.websitecategorizationapi.com/](https://www.websitecategorizationapi.com/)
 
 ## Main code
 
