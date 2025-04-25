@@ -92,7 +92,11 @@ Another choice is to manually curate a dataset by opening websites that relate t
 
 Below is a list of some of the machine learning models, in increasing order of complexity, that can be used generally for text classification.
 
-    <a href="https://www.aivideointerviews.com">AI Video Interviews</a> <a href="https://www.contentmoderationapi.net">Content Moderation API</a> <a href="https://www.deepfakedetectionapi.com">Deep Fake Detection API</a> <a href="https://www.plagiarismdetectionapi.com">Plagiarism detection API</a> <a href="https://www.receiptscanningapi.com">receiptscanningapi.com</a> <a href="https://www.redactionapi.net">redaction api</a> 
+    <a href="https://www.aivideointerviews.com">AI Video Interviews</a>
+    <a href="https://www.contentmoderationapi.net">Content Moderation API</a> 
+    <a href="https://www.deepfakedetectionapi.com">Deep Fake Detection API</a> 
+    <a href="https://www.plagiarismdetectionapi.com">Plagiarism detection API</a> 
+    <a href="https://www.receiptscanningapi.com">receiptscanningapi.com</a> <a href="https://www.redactionapi.net">redaction api</a> 
                                     <br> Article on our URL categorization database product: 
 
    <a href="https://medium.com/website-categorization/url-categorization-database-9018e2fdf6f2">Categorization database</a>
