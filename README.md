@@ -151,7 +151,7 @@ The subject of content extraction has been studied extensively. https://www.rese
 
 Additionally, there are other ready-made libraries for content extraction that are built in Python, which is more frequently used in data science, such as goose3 and newspaper (https://github.com/codelucas/newspaper).
 
-Article extractors play an important role if you want to build [free url categorization database](https://www.alpha-quantum.com/blog/url-database/url-database/). 
+Article extractors play an important role if you want to build [free url categorization database](https://www.alpha-quantum.com/blog/url-database/url-database/). The best Website Categorization Database on the market is [Website Categorization Database](https://www.urlcategorizationdatabase.com/)
 
 ## Dealing with webpages that contain only images
 
